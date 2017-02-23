@@ -1,0 +1,44 @@
+$sandwisp   : #e9f5a9;
+$swansdown  : #e1f0ec;
+
+$main-color : $swansdown;
+$text-color : #333;
+$text-active: #777;
+$font-stack : Helvetica, sans-serif;
+$font-size  : 13px;
+$zero       : 0;
+/*$box-shadow : -10px 10px 45px rgba(0, 0, 0, 0.32);*/
+$box-shadow : 0px 4px 15px rgba(0, 0, 0, 0.32);
+$white      : #fff;
+$black      : #000;
+$grey       : #ccc;
+
+
+$sandwisp-primary    : $sandwisp;
+$sandwisp-secondary  : #567304;
+$sandwisp-highlight  : #759c05;
+$sandwisp-menu-background: #e6f2a7;
+$sandwisp-menu-color: $sandwisp-secondary;
+$sandwisp-grid-header: #d3deb0;
+
+
+$swansdown-primary    : $swansdown;
+$swansdown-secondary  : #254441;
+$swansdown-highlight  : #008000;
+$swansdown-menu-background: #b1dad0;
+$swansdown-menu-color: $swansdown-secondary;
+$swansdown-grid-header: #c7d4d0;
+
+$primary-color       : $swansdown-primary;
+$secondary-color     : $swansdown-secondary;
+$highlight-color     : $swansdown-highlight;
+
+$menu-background     : $swansdown-menu-background;
+$menu-color          : $swansdown-menu-color;
+$menu-hover-color    : $white;
+
+$submenu-background  : darken( $primary-color, 20% );
+$submenu-color       : $secondary-color;
+$submenu-hover-color : $white;
+
+$grid-header-background : $swansdown-grid-header;

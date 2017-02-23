@@ -1,0 +1,19 @@
+{
+  "name": "inspied",
+  "version": "1.0.0",
+  "description": "website of inspied",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesvinkumar-a/inspied.git"
+  },
+  "author": "yesvinkumar-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yesvinkumar-a/inspied/issues"
+  },
+  "homepage": "https://github.com/yesvinkumar-a/inspied#readme"
+}
