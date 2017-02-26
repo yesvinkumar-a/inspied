@@ -7,10 +7,30 @@
     font-style: normal;
 
 }
-
+html, body {
+  height:100%;
+}
 body {
-  background: $white;
+  background: $black;
   font-family:'fjalla_oneregular', sans-serif;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+}
+.bdy {
+  position: absolute;;
+}
+.logo {
+  width:80px;
+  height:200px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.logo object {
+  width: 100%;
+  height: auto;
 }
 .loader {
   @include on-circle($item-count: 10, $circle-size: 10em, $item-size: 1em);
@@ -22,14 +42,4 @@ body {
   animation-duration: 4000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;*/
-}
-.logo {
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  text-align: center;
-  opacity:0;
-  width:50%;
-  height:auto;
 }

@@ -1,0 +1,36 @@
+/*controls*/
+#wrapper {
+  opacity:0;
+}
+.slide {
+  padding:60px;
+  position: relative;
+  width: -webkit-calc(100vw - 60px);
+  width:    -moz-calc(100vw - 60px);
+  width:         calc(100vw - 60px);
+  height: -webkit-calc(100vh - 60px);
+  height:    -moz-calc(100vh - 60px);
+  height:         calc(100vh - 60px);
+}
+.slider-nav {
+  margin:0;
+  padding:0;
+  position: fixed;
+  right:60px;
+  top:50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+.slider-nav > a {
+  width:10px;
+  height:10px;
+  border-radius: 100%;
+  background: rgba(0,0,0,0.5);
+  margin:10px;
+  color:#ccc;
+  display: block;
+  cursor: pointer;
+}
+.slider-nav > a.is-active {
+  background:rgba(255,255,255,0.5);
+}

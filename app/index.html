@@ -10,18 +10,59 @@
 		<!--endbuild-->
 	</head>
 	<body>
-		<div class="logo">
-			<object type="image/svg+xml" data="img/logo.svg">
-			  Your browser does not support SVG
-			</object>
-			<h1>inspied.com</h1>			
+
+		<div class="bdy"></div>
+
+		<div id="wrapper">
+			<section class="slide" id="0">
+				<div class="logo">
+					<object type="image/svg+xml" data="img/inspied-logo.svg">
+					  Your browser does not support SVG
+					</object>
+				</div>
+			</section>
+			<section class="slide" id="1">
+				<div class="logo">
+					<object type="image/svg+xml" data="img/inspied-logo.svg">
+					  Your browser does not support SVG
+					</object>
+				</div>
+			</section>
+			<section class="slide" id="2">
+				<h1></h1>
+				<div class="logo">
+					<object type="image/svg+xml" data="img/inspied-logo.svg">
+					  Your browser does not support SVG
+					</object>
+				</div>
+			</section>
 		</div>
+
+		<div id="frame">
+			<div id="left"></div>
+			<div id="right"></div>
+			<div id="top"></div>
+			<div id="bottom"></div>
+		</div>
+
+
+
+
 		<!--build:js js/main.min.js -->
+		<script src="js/lib/threejs/three.min.js"></script>
+	  <script src="js/lib/threejs/OrbitControls2.js"></script>
+	  <script src="js/lib/threejs/orbit-controls.js"></script>
+	  <script src="js/lib/threejs/stats.min.js"></script>
+	  <script src="js/lib/threejs/dat.gui.js"></script>
+	  <script src="js/lib/threejs/FBOUtils.js"></script>
+
 		<script src="js/lib/jquery/jquery.min.js"></script>
 		<script src="js/lib/greensock/TweenMax.min.js"></script>
 		<script src="js/lib/queryloader/queryloader2.min.js"></script>
 		<script src="js/utility-functions.js"></script>
 		<script src="js/main.js"></script>
 		<!-- endbuild -->
+
+		<script src="glsl/ShaderLoader.js"></script>
 	</body>
 </html>
